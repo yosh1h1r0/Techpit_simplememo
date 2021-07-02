@@ -4,7 +4,7 @@ function getHeader($title)
 {
     return <<<EOF
 
-        <head>
+       <head>
        <meta charset="utf-8" />
        <title> SimpleMemo | {$title}</title>
        link rel="stylesheet" type="text/css" href"../public/css/bootstrap.min.css" />

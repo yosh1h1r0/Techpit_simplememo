@@ -186,3 +186,47 @@ Version: '5.7.34'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Comm
 2021-06-30T00:02:22.229308Z 0 [Note] Shutting down plugin 'binlog'
 2021-06-30T00:02:22.238482Z 0 [Note] mysqld: Shutdown complete
 
+2021-07-01T13:29:38.341642Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2021-07-01T13:29:38.351767Z 0 [Note] mysqld (mysqld 5.7.34) starting as process 1 ...
+2021-07-01T13:29:38.358903Z 0 [Warning] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2021-07-01T13:29:38.365554Z 0 [Note] InnoDB: PUNCH HOLE support available
+2021-07-01T13:29:38.366464Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2021-07-01T13:29:38.367514Z 0 [Note] InnoDB: Uses event mutexes
+2021-07-01T13:29:38.368046Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2021-07-01T13:29:38.369162Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-07-01T13:29:38.369954Z 0 [Note] InnoDB: Using Linux native AIO
+2021-07-01T13:29:38.371688Z 0 [Note] InnoDB: Number of pools: 1
+2021-07-01T13:29:38.374736Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2021-07-01T13:29:38.376951Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2021-07-01T13:29:38.388447Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-07-01T13:29:38.391669Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2021-07-01T13:29:38.447593Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2021-07-01T13:29:38.547431Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-07-01T13:29:38.553807Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-07-01T13:29:38.622249Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-07-01T13:29:38.627522Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2021-07-01T13:29:38.628362Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2021-07-01T13:29:38.629438Z 0 [Note] InnoDB: Waiting for purge to start
+2021-07-01T13:29:38.680672Z 0 [Note] InnoDB: 5.7.34 started; log sequence number 12665890
+2021-07-01T13:29:38.681636Z 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2021-07-01T13:29:38.681833Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2021-07-01T13:29:38.734132Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2021-07-01T13:29:38.735230Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2021-07-01T13:29:38.751655Z 0 [Warning] CA certificate ca.pem is self signed.
+2021-07-01T13:29:38.752635Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2021-07-01T13:29:38.761407Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2021-07-01T13:29:38.762386Z 0 [Note] IPv6 is available.
+2021-07-01T13:29:38.763813Z 0 [Note]   - '::' resolves to '::';
+2021-07-01T13:29:38.764444Z 0 [Note] Server socket created on IP: '::'.
+2021-07-01T13:29:38.768086Z 0 [Warning] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2021-07-01T13:29:38.768968Z 0 [Note] InnoDB: Buffer pool(s) load completed at 210701 22:29:38
+2021-07-01T13:29:39.069119Z 0 [Note] Event Scheduler: Loaded 0 events
+2021-07-01T13:29:39.070321Z 0 [Note] mysqld: ready for connections.
+Version: '5.7.34'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server (GPL)
+2021-07-01T14:47:49.288559Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2021-07-01T14:47:49.298394Z 0 [Note] Shutting down slave threads
+2021-07-01T14:47:49.302919Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2021-07-01T14:47:49.306009Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2021-07-01T14:47:49.308417Z 0 [Note] Binlog end
+2021-07-01T14:47:49.311940Z 0 [Note] Shutting down plugin 'ngram'
+2021-07-01T14:47:49.330664Z 0 [Note] Shutting down plugin 'partition'
