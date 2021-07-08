@@ -76,7 +76,7 @@
 
  function mailAddressDuplicationCheck(&$errors, $check_value, $message){
     $database_handler = getDatabaseConnection();
-    if($statement = $database_handler->prepare('select id users where email = :user_email')){
+    if($statement = $database_handler->prepare('select id from users where email = :user_email')){
         $statement->bindParam(':user_email', $check_value);
         $statement->execute();
     }
